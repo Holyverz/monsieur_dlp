@@ -1,0 +1,9 @@
+[package]
+name = "monsieur_dlp"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+io = "0.0.2"
+thiserror = "2.0.12"
+tokio = { version = "1.44.2", features = ["full"] }
